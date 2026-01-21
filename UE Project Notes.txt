@@ -1,0 +1,1 @@
+For the living room scene, auto exposure needs to be disabled in the project settings, as the renders started out too bright with it on, even with the correct lighting.
