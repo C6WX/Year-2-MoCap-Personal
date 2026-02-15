@@ -1,0 +1,834 @@
+
+Running AutomationTool...
+Using bundled DotNet SDK version: 8.0.300 win-x64
+Starting AutomationTool...
+Parsing command line: -ScriptsForProject=C:/../../../Github/Year-2-MoCap-Personal/Santa_Trackers/Santa_Trackers.uproject BuildCookRun -project=C:/../../../Github/Year-2-MoCap-Personal/Santa_Trackers/Santa_Trackers.uproject -noP4 -clientconfig=Development -serverconfig=Development -nocompile -nocompileeditor -installed -unrealexe="C:\Program Files\Epic Games\UE_5.6\Engine\Binaries\Win64\UnrealEditor-Cmd.exe" -utf8output -platform=Win64 -build -cook -map=ExteriorHouse+Overview+Room+DemoMap+Area_51+Bedroom+ExteriorHouse+LivingRoom+Upstairs_Hallway -CookCultures=en -unversionedcookedcontent -zenstore -pak -stage -compressed -cookincremental -stage -package -cmdline="ExteriorHouse -Messaging" -addcmdline="-SessionId=D51E01034873134D330A83BC690204E5 -SessionOwner='callum' -SessionName='Launch'   " -archive -archivedirectory=C:/Github/Year-2-MoCap-Personal/Santa_Trackers/Export
+Initializing script modules...
+Total script module initialization time: 0.41 s.
+Using C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe
+Executing commands...
+Setting up ProjectParams for C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Santa_Trackers.uproject
+********** BUILD COMMAND STARTED **********
+Running: C:\Program Files\Epic Games\UE_5.6\Engine\Binaries\ThirdParty\DotNet\8.0.300\win-x64\dotnet.exe "C:\Program Files\Epic Games\UE_5.6\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" Santa_Trackers Win64 Development -Project=C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Santa_Trackers.uproject -Manifest=C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Intermediate\Build\Manifest.xml  -remoteini="C:\Github\Year-2-MoCap-Personal\Santa_Trackers"  -skipdeploy  -log="C:\Users\callu\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\UBA-Santa_Trackers-Win64-Development.txt"
+Log file: C:\Users\callu\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\UBA-Santa_Trackers-Win64-Development.txt
+Using 'git status' to determine working set for adaptive non-unity build (C:\Github\Year-2-MoCap-Personal).
+Creating makefile for Santa_Trackers (manifest 'C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Intermediate\Build\Manifest.xml' not found)
+Writing manifest to C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Intermediate\Build\Manifest.xml
+Target is up to date
+
+Result: Succeeded
+Total execution time: 3.42 seconds
+Took 3.52s to run dotnet.exe, ExitCode=0
+Build command time: 3.54 s
+********** BUILD COMMAND COMPLETED **********
+********** COOK COMMAND STARTED **********
+HasMapsToCook ExteriorHouse+Overview+Room+DemoMap+Area_51+Bedroom+ExteriorHouse+LivingRoom+Upstairs_Hallway
+Params.HasMapsToCook ExteriorHouse+Overview+Room+DemoMap+Area_51+Bedroom+ExteriorHouse+LivingRoom+Upstairs_Hallway
+Running UnrealEditor Cook for project C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Santa_Trackers.uproject
+Commandlet log file is C:\Program Files\Epic Games\UE_5.6\Engine\Programs\AutomationTool\Saved\Cook-2026.02.15-15.06.53.txt
+Running: C:\Program Files\Epic Games\UE_5.6\Engine\Binaries\Win64\UnrealEditor-Cmd.exe "C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Santa_Trackers.uproject" -run=Cook -Map=ExteriorHouse+Overview+Room+DemoMap+Area_51+Bedroom+ExteriorHouse+LivingRoom+Upstairs_Hallway -CookCultures=en -TargetPlatform=Windows  -zenstore -unversioned -cookincremental -ZenStore -fileopenlog -abslog="C:\Program Files\Epic Games\UE_5.6\Engine\Programs\AutomationTool\Saved\Cook-2026.02.15-15.06.53.txt" -stdout -CrashForUAT -unattended -NoLogTimes
+LogInit: Display: Running engine for game: Santa_Trackers
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Display: Control listening on port 1985
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.6-CL-44394996"
+LogCsvProfiler: Display: Metadata set : engineversion="5.6.1-44394996+++UE5+Release-5.6"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.7840] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i7-14700K"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Santa_Trackers.uproject -run=Cook -Map=ExteriorHouse+Overview+Room+DemoMap+Area_51+Bedroom+ExteriorHouse+LivingRoom+Upstairs_Hallway -CookCultures=en -TargetPlatform=Windows -zenstore -unversioned -cookincremental -ZenStore -fileopenlog -abslog="C:\Program Files\Epic Games\UE_5.6\Engine\Programs\AutomationTool\Saved\Cook-2026.02.15-15.06.53.txt" -stdout -CrashForUAT -unattended -NoLogTimes""
+LogCsvProfiler: Display: Metadata set : loginid="a11da3654a4cfa55d470ddacd9ed35d2"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+LogConfig: Display: Loading Android ini files took 0.04 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.04 seconds
+LogConfig: Display: Loading Mac ini files took 0.04 seconds
+LogConfig: Display: Loading IOS ini files took 0.04 seconds
+LogAssetRegistry: Display: Asset registry cache read as 70.1 MiB from ../../../../../../Github/Year-2-MoCap-Personal/Santa_Trackers/Intermediate/CachedAssetRegistry_0.bin.
+LogConfig: Display: Loading Unix ini files took 0.04 seconds
+LogConfig: Display: Loading Windows ini files took 0.05 seconds
+LogConfig: Display: Loading TVOS ini files took 0.05 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.05 seconds
+LogConfig: Display: Loading Linux ini files took 0.05 seconds
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogHAL: Display: Platform has ~ 32 GB [34103693312 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.13
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.13.dll
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXR'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXRClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+LogTargetPlatformManager: Display: Building Assets For Windows
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+LogCsvProfiler: Display: Metadata set : rhiname="Null"
+LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1350 MiB)
+LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at http://[::1]:8558/ with namespace ue.ddc status: OK!.
+LogDerivedDataCache: Display: C:/Users/callu/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.04ms. RandomReadSpeed=961.71MBs, RandomWriteSpeed=74.24MBs. Assigned SpeedClass 'Local'
+LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+LogShaderCompilers: Display: Using 25 local workers for shader compilation
+LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Github/Year-2-MoCap-Personal/Santa_Trackers/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogEditorDomain: Display: EditorDomain is Disabled
+LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches ../../../../../../Github/Year-2-MoCap-Personal/Santa_Trackers/Intermediate/CachedAssetRegistry_*.bin.
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_M because of a recursive sync load
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_N because of a recursive sync load
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDiffuse because of a recursive sync load
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components because of a recursive sync load
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultPostProcessMaterial because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultLightFunctionMaterial because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDeferredDecalMaterial because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/WorldGridMaterial because of a recursive sync load
+LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+LogMeshReduction: Display: No distributed automatic mesh merging module available
+LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 1.518 ms
+LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+LogAudio: Display: Registering Engine Module Parameter Interfaces...
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+LogCook: Display: CookProcessCount=1. CookMultiprocess is disabled and the cooker is running as a single process.
+LogCook: Display: CookSettings for Memory:
+	MemoryMaxUsedVirtual 0MiB
+	MemoryMaxUsedPhysical 0MiB
+	MemoryMinFreeVirtual 2048MiB
+	MemoryMinFreePhysical 2048MiB
+	MemoryTriggerGCAtPressureLevel None
+	SoftGCMemoryUseTrigger disabled
+	SoftGCTimeBudgetTrigger enabled (0.05 budget, 30s min period)
+LogCook: Display: SkipOnlyEditorOnly is enabled, unsolicited packages will not be cooked unless they are referenced from the cooked version of the instigator package.
+LogAssetRegistry: Display: Triggering cache save on discovery complete
+LogEditorDomain: Display: Cycle detected in parents of class /Script/RigVMDeveloper.RigVMUnitNode. Allow flags for editordomain and incremental cooking will be invalid.
+LogEditorDomain: Display: Class /script/PropertyBindingUtilsModule.PropertyBindingPropertyAccess is imported by a package but does not exist in memory. EditorDomain keys for packages using it will be invalid if it still exists.
+	To clear this message, resave packages that use the deleted class, or load its module earlier than the packages that use it are referenced.
+LogZenStore: Display: Establishing oplog 'Santa_Trackers.e5610f0b/EditorDomain'
+LogZenStore: Display: Zen project 'Santa_Trackers.e5610f0b' already exists
+LogZenStore: Display: Zen oplog 'Santa_Trackers.e5610f0b/EditorDomain' already exists
+LogCook: Display: Waiting for Asset Registry
+LogPlacementMode: Display: The Asset Registry is done with its initial scan, the list of placeable classes has been updated.
+LogAssetRegistry: Display: Asset registry cache written as 70.1 MiB to ../../../../../../Github/Year-2-MoCap-Personal/Santa_Trackers/Intermediate/CachedAssetRegistry_*.bin
+LogStorageServerPlatformFile: Display: Found 'C:/Github/Year-2-MoCap-Personal/Santa_Trackers/Saved/Cooked/Windows/ue.projectstore'
+LogStorageServerPlatformFile: Display: Using connection settings from ue.projectstore: HostAddrs='[::1]+192.168.1.35' and HostPort='8558'
+LogStorageServerPlatformFile: Display: Found 'C:/Github/Year-2-MoCap-Personal/Santa_Trackers/Saved/Cooked/Windows/ue.projectstore'
+LogStorageServerPlatformFile: Display: Using settings from ue.projectstore: ServerProject='Santa_Trackers.e5610f0b' and ServerPlatform='Windows'
+LogStorageServerConnection: Display: Creating zen store connection to [::1]:8558 ("::1").
+LogStorageServerConnection: Display: Zen store connection established to [::1]:8558.
+LogZenStore: Display: Establishing oplog 'Santa_Trackers.e5610f0b/Windows'
+LogZenStore: Display: Zen project 'Santa_Trackers.e5610f0b' already exists
+LogCook: Display: Cook invalidated for platform Windows because CookIncremental has changed. Old: false, New: true. Clearing previously cooked packages.
+LogCook: Display: FULL COOK: -cookincremental was specified, but global settings have changed and all previously cook packages are invalidated. Deleting previously cooked packages for platform Windows and recooking all packages discovered in the current cook.
+LogZenStore: Display: Deleting oplog 'Santa_Trackers.e5610f0b/Windows' if it exists
+LogZenStoreWriter: Display: Deleting C:/Github/Year-2-MoCap-Personal/Santa_Trackers/Saved/Cooked/Windows/...
+LogZenStore: Display: Zen oplog 'Santa_Trackers.e5610f0b/Windows' created
+LogCook: Display: Sandbox cleanup took 10.307 seconds for platforms Windows
+LogCook: Display: Compiling global changed shaders for platform 'Windows'
+LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../Github/Year-2-MoCap-Personal/Santa_Trackers/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM6-PCD3D_SM6) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 502 (50200.00%)
+LogShaderLibrary: Display: Total Shaders: 10692, Unique Shaders: 10692 (100.00%)
+LogShaderLibrary: Display: Total Shader Size: 137.30mb, Unique Shaders Size: 137.30mb (100.00%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 4
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 583
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Compute: 7889 shaders (73.78%), compressed size: 96.63 MB (12.54 KB avg per shader), uncompressed size: 126.21 MB (16.38 KB avg per shader)
+LogShaderLibrary: Display: SF_Pixel: 1936 shaders (18.11%), compressed size: 20.77 MB (10.98 KB avg per shader), uncompressed size: 27.33 MB (14.45 KB avg per shader)
+LogShaderLibrary: Display: SF_RayGen: 707 shaders (6.61%), compressed size: 19.44 MB (28.15 KB avg per shader), uncompressed size: 26.78 MB (38.78 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 129 shaders (1.21%), compressed size: 0.34 MB (2.71 KB avg per shader), uncompressed size: 0.42 MB (3.36 KB avg per shader)
+LogShaderLibrary: Display: SF_RayHitGroup: 17 shaders (0.16%), compressed size: 0.06 MB (3.45 KB avg per shader), uncompressed size: 0.07 MB (4.04 KB avg per shader)
+LogShaderLibrary: Display: SF_RayMiss: 8 shaders (0.07%), compressed size: 0.04 MB (5.65 KB avg per shader), uncompressed size: 0.06 MB (7.93 KB avg per shader)
+LogShaderLibrary: Display: SF_RayCallable: 2 shaders (0.02%), compressed size: 0.01 MB (7.29 KB avg per shader), uncompressed size: 0.02 MB (9.12 KB avg per shader)
+LogShaderLibrary: Display: SF_Geometry: 3 shaders (0.03%), compressed size: 0.01 MB (2.15 KB avg per shader), uncompressed size: 0.01 MB (3.31 KB avg per shader)
+LogShaderLibrary: Display: SF_WorkGraphComputeNode: 1 shaders (0.01%), compressed size: 0.00 MB (2.75 KB avg per shader), uncompressed size: 0.00 MB (3.35 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../../Github/Year-2-MoCap-Personal/Santa_Trackers/Saved/Shaders/PCD3D_SM6-PCD3D_SM6/ShaderDebug-Global-PCD3D_SM6-PCD3D_SM6/Dump.txt'
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM5-PCD3D_SM5) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 341 (34100.00%)
+LogShaderLibrary: Display: Total Shaders: 4119, Unique Shaders: 4107 (99.71%)
+LogShaderLibrary: Display: Total Shader Size: 12.47mb, Unique Shaders Size: 12.47mb (99.96%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 303
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     3, 3, 2, 2, 2, 2, 2, 2, 2, 2
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Pixel: 1687 shaders (41.08%), compressed size: 6.42 MB (3.90 KB avg per shader), uncompressed size: 31.08 MB (18.87 KB avg per shader)
+LogShaderLibrary: Display: SF_Compute: 2314 shaders (56.34%), compressed size: 5.98 MB (2.65 KB avg per shader), uncompressed size: 23.36 MB (10.34 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 104 shaders (2.53%), compressed size: 0.06 MB (0.60 KB avg per shader), uncompressed size: 0.13 MB (1.29 KB avg per shader)
+LogShaderLibrary: Display: SF_Geometry: 2 shaders (0.05%), compressed size: 0.00 MB (0.49 KB avg per shader), uncompressed size: 0.00 MB (1.55 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../../Github/Year-2-MoCap-Personal/Santa_Trackers/Saved/Shaders/PCD3D_SM5-PCD3D_SM5/ShaderDebug-Global-PCD3D_SM5-PCD3D_SM5/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Warning: Multiple packages found for path `Overview`; it will not be added. Specify the full LongPackageName. Packages found:
+	/Game/Fab/Christmas_Room/Levels/Overview
+	/Game/Fab/Furniture_Free/Maps/Overview
+LogCook: Display: Discovering localized assets for cultures: en
+LogCook: Display: Found 0 localized assets
+LogCook: Display: Cooked packages 0 Packages Remain 403 Total 403
+LogCook: Display: Cook Diagnostics: OpenFileHandles=225, VirtualMemory=1836MiB, VirtualMemoryAvailable=22432MiB
+LogCook: Display: Garbage collection triggered (Soft). Triggered by conditions:
+  CookSettings.SoftGCTimeTrigger: Periodic triggering of SoftGC: No duration data.
+LogCookCommandlet: Display: GarbageCollection... (Periodic GC)
+LogCook: Display: Cooked packages 130 Packages Remain 1215 Total 1345
+LogDeviceProfileManager: Display: Deviceprofile None not found.
+LogCook: Display: Cooked packages 352 Packages Remain 993 Total 1345
+LogWorldPartition: Display: [Cook] Gathering packages to cook from generators for owner object World /Engine/Maps/Templates/OpenWorld.OpenWorld.
+LogWorldPartition: Display: WorldPartition initialize started...
+LogWorldPartition: Display: WorldPartition initialize took 5.087 ms
+LogWorldPartition: Display: GenerateStreaming for 'OpenWorld.Engine' started...
+LogWorldPartition: Display: GenerateStreaming for 'OpenWorld.Engine' took 12.689 ms
+LogWorldPartition: Display: [Cook] Gathered 64 packages to generate from 1 Generators.
+LogWorldPartition: Display: [Cook] Sending 64 packages to be generated.
+LogWorldPartition: Display: [Cook] Debug(GetGenerateList) : OwnerObject=World /Engine/Maps/Templates/OpenWorld.OpenWorld bForceInitializedWorld=1 bInitializedPhysicsSceneForSave=1
+LogCook: Display: Splitting Package /Engine/Maps/Templates/OpenWorld with splitter FWorldPartitionCookPackageSplitter acting on object World /Engine/Maps/Templates/OpenWorld.OpenWorld.
+LogWorldPartition: Display: [Cook][PopulateGeneratorPackage] Processing 64 packages
+LogWorldPartition: Display: [Cook][PopulateGeneratorPackage] Gathered 72 modified packages
+LogWorldPartition: Display: [Cook] Gathering packages to cook from generators for owner object World /Game/Fab/DreamscapeSeries/DreamscapeChristmas/Maps/DemoMap.DemoMap.
+LogWorldPartition: Display: WorldPartition initialize started...
+LogWorldPartition: Display: WorldPartition initialize took 1.964 ms (total: 7.052 ms)
+LogWorldPartition: Display: GenerateStreaming for 'DemoMap' started...
+LogWorldPartition: Display: GenerateStreaming for 'DemoMap' took 3.576 ms (total: 16.265 ms)
+LogWorldPartition: Display: [Cook] Gathered 0 packages to generate from 1 Generators.
+LogWorldPartition: Display: [Cook] Sending 0 packages to be generated.
+LogWorldPartition: Display: [Cook] Debug(GetGenerateList) : OwnerObject=World /Game/Fab/DreamscapeSeries/DreamscapeChristmas/Maps/DemoMap.DemoMap bForceInitializedWorld=1 bInitializedPhysicsSceneForSave=1
+LogCook: Display: Splitting Package /Game/Fab/DreamscapeSeries/DreamscapeChristmas/Maps/DemoMap with splitter FWorldPartitionCookPackageSplitter acting on object World /Game/Fab/DreamscapeSeries/DreamscapeChristmas/Maps/DemoMap.DemoMap.
+LogWorldPartition: Display: [Cook][PopulateGeneratorPackage] Processing 0 packages
+LogWorldPartition: Display: [Cook][PopulateGeneratorPackage] Gathered 56 modified packages
+LogCook: Display: Cooked packages 404 Packages Remain 1008 Total 1412
+LogWorldPartition: Display: [Cook] Debug(TearDown): OwnerObject=World /Game/Fab/DreamscapeSeries/DreamscapeChristmas/Maps/DemoMap.DemoMap bForceInitializedWorld=1 bInitializedPhysicsSceneForSave=1
+LogWorldPartition: Display: [Cook] Debug(TearDown): OwnerObject=World /Engine/Maps/Templates/OpenWorld.OpenWorld bForceInitializedWorld=1 bInitializedPhysicsSceneForSave=1
+LogCook: Display: Cooked packages 485 Packages Remain 1011 Total 1496
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.10.dll
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+LogCook: Display: Cooked packages 592 Packages Remain 904 Total 1496
+LogCook: Display: Cooked packages 988 Packages Remain 508 Total 1496
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+LogCook: Display: Cooked packages 1419 Packages Remain 77 Total 1496
+LogCook: Display: Cooked packages 1444 Packages Remain 52 Total 1496
+LogCook: Display: Cooked packages 1496 Packages Remain 0 Total 1496
+LogCook: Display: Cook Diagnostics: OpenFileHandles=4857, VirtualMemory=3460MiB, VirtualMemoryAvailable=19523MiB
+LogCook: Display: Finishing up...
+LogShaderCompilers: Display: ================================================
+LogShaderCompilers: Display: === FShaderJobCache stats ===
+LogShaderCompilers: Display: Total job queries 12, among them cache hits 0 (0.00%), DDC hits 0 (0.00%), Duplicates 0 (0.00%)
+LogShaderCompilers: Display: Tracking 12 distinct input hashes that result in 12 distinct outputs (100.00%)
+LogShaderCompilers: Display: RAM used: 206.75 KiB of 1.60 GiB budget. Usage: 0.01%
+LogShaderCompilers: Display: === Shader Compilation stats ===
+LogShaderCompilers: Display: Shaders Compiled: 12
+LogShaderCompilers: Display: Jobs assigned 12, completed 12 (100%)
+LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.14 s
+LogShaderCompilers: Display: Job execution time: average 1.02 s, max 3.11 s
+LogShaderCompilers: Display: Job life time (pending + execution): average 1.06 s, max 3.11
+LogShaderCompilers: Display: Shader code size: total 233.559 KiB, numShaders 12, average 19.463 KiB, min 9.906 KiB, max 34.73 KiB
+LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.14 s
+LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.04%
+LogShaderCompilers: Display: Jobs were issued in 12 batches (only local compilation was used), average 1.00 jobs/batch
+LogShaderCompilers: Display: Average processing rate: 3.82 jobs/sec
+LogShaderCompilers: Display: Total thread time: 10.097 s
+LogShaderCompilers: Display: Total thread preprocess time: 0.093 s
+LogShaderCompilers: Display: Percentage time preprocessing: 0.92%
+LogShaderCompilers: Display: Effective parallelization: 3.22 (times faster than compiling all shaders on one thread). Compare with number of workers: 24 - 0.134059
+LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+LogShaderCompilers: Display:                                               FNiagaraShader (compiled   12 times, average 0.84 sec, max 2.88 sec, min 0.10 sec)
+LogShaderCompilers: Display: Top 1 shader types by total compile time:
+LogShaderCompilers: Display:                                               FNiagaraShader - 100.00% of total time (compiled   12 times, average 0.84 sec, max 2.88 sec, min 0.10 sec)
+LogShaderCompilers: Display: === Material stats ===
+LogShaderCompilers: Display: Materials Cooked:        865
+LogShaderCompilers: Display: Materials Translated:    0
+LogShaderCompilers: Display: Material Total Translate Time: 0.00 s
+LogShaderCompilers: Display: Material Translation Only: 0.00 s (0%)
+LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+LogShaderCompilers: Display: ================================================
+LogAssetRegistryGenerator: Display: Saving asset registry v21.
+LogAssetRegistryGenerator: Display: Generated development asset registry C:/Github/Year-2-MoCap-Personal/Santa_Trackers/Saved/Cooked/Windows/Santa_Trackers/Metadata/DevelopmentAssetRegistry.bin num assets 1510, size is 2003.92kb, XxHash64[LE] = 0xA9C8414740DDF253, waited on hash 0.00 seconds
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 1503, size is 1239.03kb
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'Santa_Trackers' (PCD3D_SM6-PCD3D_SM6) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 365, Unique Shadermaps: 208 (56.99%)
+LogShaderLibrary: Display: Total Shaders: 7385, Unique Shaders: 4331 (58.65%)
+LogShaderLibrary: Display: Total Shader Size: 63.17mb, Unique Shaders Size: 41.69mb (65.99%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 14
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 811
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     173, 56, 55, 52, 48, 31, 29, 29, 25, 22
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Compute: 904 shaders (20.87%), compressed size: 13.69 MB (15.51 KB avg per shader), uncompressed size: 18.34 MB (20.78 KB avg per shader)
+LogShaderLibrary: Display: SF_Pixel: 1587 shaders (36.64%), compressed size: 9.79 MB (6.31 KB avg per shader), uncompressed size: 12.72 MB (8.21 KB avg per shader)
+LogShaderLibrary: Display: SF_RayHitGroup: 626 shaders (14.45%), compressed size: 8.12 MB (13.29 KB avg per shader), uncompressed size: 10.28 MB (16.82 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 950 shaders (21.93%), compressed size: 7.38 MB (7.96 KB avg per shader), uncompressed size: 9.74 MB (10.50 KB avg per shader)
+LogShaderLibrary: Display: SF_Mesh: 254 shaders (5.86%), compressed size: 2.55 MB (10.27 KB avg per shader), uncompressed size: 3.09 MB (12.47 KB avg per shader)
+LogShaderLibrary: Display: SF_RayMiss: 6 shaders (0.14%), compressed size: 0.12 MB (20.33 KB avg per shader), uncompressed size: 0.17 MB (28.59 KB avg per shader)
+LogShaderLibrary: Display: SF_RayCallable: 2 shaders (0.05%), compressed size: 0.03 MB (12.87 KB avg per shader), uncompressed size: 0.03 MB (17.34 KB avg per shader)
+LogShaderLibrary: Display: SF_Geometry: 2 shaders (0.05%), compressed size: 0.01 MB (5.31 KB avg per shader), uncompressed size: 0.01 MB (7.49 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../../Github/Year-2-MoCap-Personal/Santa_Trackers/Saved/Shaders/PCD3D_SM6-PCD3D_SM6/ShaderDebug-Santa_Trackers-PCD3D_SM6-PCD3D_SM6/Dump.txt'
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'Santa_Trackers' (PCD3D_SM5-PCD3D_SM5) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 365, Unique Shadermaps: 205 (56.16%)
+LogShaderLibrary: Display: Total Shaders: 3190, Unique Shaders: 1969 (61.72%)
+LogShaderLibrary: Display: Total Shader Size: 7.87mb, Unique Shaders Size: 5.47mb (69.58%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 7
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 355
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     50, 48, 33, 29, 28, 21, 21, 19, 19, 17
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Pixel: 1055 shaders (53.58%), compressed size: 2.35 MB (2.28 KB avg per shader), uncompressed size: 7.91 MB (7.68 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 696 shaders (35.35%), compressed size: 2.06 MB (3.02 KB avg per shader), uncompressed size: 6.44 MB (9.48 KB avg per shader)
+LogShaderLibrary: Display: SF_Compute: 216 shaders (10.97%), compressed size: 1.06 MB (5.05 KB avg per shader), uncompressed size: 4.55 MB (21.56 KB avg per shader)
+LogShaderLibrary: Display: SF_Geometry: 2 shaders (0.10%), compressed size: 0.00 MB (1.68 KB avg per shader), uncompressed size: 0.01 MB (5.39 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../../Github/Year-2-MoCap-Personal/Santa_Trackers/Saved/Shaders/PCD3D_SM5-PCD3D_SM5/ShaderDebug-Santa_Trackers-PCD3D_SM5-PCD3D_SM5/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Display: Dependent plugin "SteamShared" referenced by "EOS Shared" wasn't found in enabled plugins list when creating cook metadata file... skipping
+LogCook: Display: Finalize package store(s)...
+LogZenStoreWriter: Display: Flushing...
+LogZenStoreWriter: Display: Saving Zen filesystem manifest 'C:/Github/Year-2-MoCap-Personal/Santa_Trackers/Saved/Cooked/Windows/Santa_Trackers/Metadata/zenfs.manifest'
+LogZenStoreWriter: Display: Output:	40308 Public runtime script objects
+LogCook: Display: Cook by the book total time in tick 18.385707s total time 34.530914
+LogCook: Display: Peak Used virtual 3618 MiB Peak Used physical 3547 MiB
+LogCook: Display: Packages Cooked: 1489, Packages Incrementally Skipped: 0, Packages Skipped by Platform: 7, Total Packages: 1496
+LogCookStats: Display: Hierarchy Timer Information:
+LogCookStats: Display:   Root: 0.000s (0)
+LogCookStats: Display:     CleanSandbox: 10.307s (1)
+LogCookStats: Display:     CollectFilesToCook: 0.014s (1)
+LogCookStats: Display:       CookModificationDelegate: 0.001s (1)
+LogCookStats: Display:     GenerateLongPackageName: 0.001s (1)
+LogCookStats: Display:     TickMainCookLoop: 18.386s (2)
+LogCookStats: Display:       PumpPollables: 0.005s (2)
+LogCookStats: Display:       PumpRequests: 0.040s (47)
+LogCookStats: Display:       LoadPackageForCooking: 2.165s (5300)
+LogCookStats: Display:       ValidateSourcePackage: 0.000s (1496)
+LogCookStats: Display:       PostLoadPackageFixup: 0.000s (9)
+LogCookStats: Display:       SavingPackages: 14.571s (292)
+LogCookStats: Display:         PollPendingCookedPlatformDatas: 0.681s (16394)
+LogCookStats: Display:         PrepareSave: 4.249s (15108)
+LogCookStats: Display:         PrecachePlatformDataForNextPackage: 2.471s (1491)
+LogCookStats: Display:           PrepareSave: 2.471s (1893)
+LogCookStats: Display:         SaveCookedPackage: 6.736s (1496)
+LogCookStats: Display:           GEditorSavePackage: 5.298s (1496)
+LogCookStats: Display:             VerifyCanCookPackage: 0.006s (1489)
+LogCookStats: Display:           TargetDomainDependencies: 1.233s (1496)
+LogCookStats: Display:         ClearAllCachedCookedPlatformData: 0.125s (1496)
+LogCookStats: Display:       WaitForAsync: 1.414s (2087)
+LogCookStats: Display:     CookByTheBookFinished: 0.537s (1)
+LogCookStats: Display:       SavingCurrentIniSettings: 0.065s (1)
+LogCookStats: Display:         ProcessingAccessedStrings: 0.011s (1)
+LogCookStats: Display:       ChunkGeneration: 0.015s (1)
+LogCookStats: Display:       CalculateReferencedSet: 0.000s (1)
+LogCookStats: Display:       FinishPopulateShaderLibrary: 0.001s (1)
+LogCookStats: Display:       GeneratorPreSave: 0.000s (1)
+LogCookStats: Display:       BuildChunkManifest: 0.040s (1)
+LogCookStats: Display:         FixupPackageDependenciesForChunks: 0.008s (1)
+LogCookStats: Display:       SaveManifests: 0.000s (1)
+LogCookStats: Display:       SaveAssetRegistry: 0.089s (1)
+LogCookStats: Display:       WriteCookerOpenOrder: 0.005s (1)
+LogCookStats: Display:       WriteCookMetadata: 0.002s (1)
+LogCookStats: Display:       WriteReferencedSet: 0.002s (1)
+LogCookStats: Display:       FinalizePackageStore: 0.118s (1)
+LogCookStats: Display: Misc Cook Stats
+LogCookStats: Display: ===============
+LogCookStats: Display: Niagara
+LogCookStats: Display:     NiagaraScriptTranslationCount=18
+LogCookStats: Display:     NiagaraCpuScriptCompileCount=0
+LogCookStats: Display:     NiagaraCpuScriptDdcCacheHitCount=0
+LogCookStats: Display:     NiagaraCpuScriptDdcCacheMissCount=18
+LogCookStats: Display:     NiagaraGpuScriptCompileCount=6
+LogCookStats: Display:     NiagaraGpuScriptDdcCacheHitCount=0
+LogCookStats: Display:     NiagaraGpuScriptDdcCacheMissCount=12
+LogCookStats: Display:     NiagaraSystemWaitForCompilationCompleteTime=0.000092
+LogCookStats: Display: OpenColorIOShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: NiagaraShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: ComputeKernelShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: ShaderCompiler
+LogCookStats: Display:     BlockingTimeSec=0.000133
+LogCookStats: Display:     AsyncCompileTimeSec=12.222272
+LogCookStats: Display:     GlobalBeginCompileShaderTimeSec=0.002343
+LogCookStats: Display:     GlobalBeginCompileShaderCalls=12
+LogCookStats: Display:     ProcessAsyncResultsTimeSec=0.000612
+LogCookStats: Display: GlobalShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: Material
+LogCookStats: Display:     FinishCacheShadersSec=1.002508
+LogCookStats: Display: Package.Load
+LogCookStats: Display:     NumRequestedLoads=3618
+LogCookStats: Display:     NumPackagesLoaded=4707
+LogCookStats: Display:     NumInlineLoads=1089
+LogCookStats: Display:     LoadPackageTimeSec=5.132452
+LogCookStats: Display: Package.Save
+LogCookStats: Display:     NumPackagesIncrementallySkipped=0
+LogCookStats: Display:     NumPackagesSaved=1496
+LogCookStats: Display:     SavePackageTimeSec=4.945398
+LogCookStats: Display:     TagPackageExportsPresaveTimeSec=0.000000
+LogCookStats: Display:     TagPackageExportsTimeSec=0.000000
+LogCookStats: Display:     FullyLoadLoadersTimeSec=0.000000
+LogCookStats: Display:     ResetLoadersTimeSec=0.000000
+LogCookStats: Display:     TagPackageExportsGetObjectsWithOuter=0.000000
+LogCookStats: Display:     TagPackageExportsGetObjectsWithMarks=0.000000
+LogCookStats: Display:     SerializeImportsTimeSec=0.000000
+LogCookStats: Display:     SortExportsSeekfreeInnerTimeSec=0.000000
+LogCookStats: Display:     SerializeExportsTimeSec=0.000000
+LogCookStats: Display:     SerializeBulkDataTimeSec=0.018310
+LogCookStats: Display:     AsyncWriteTimeSec=0.000000
+LogCookStats: Display:     MBWritten=0.000000
+LogCookStats: Display: CookOnTheFlyServer
+LogCookStats: Display:     PeakRequestQueueSize=1345
+LogCookStats: Display:     PeakLoadQueueSize=187
+LogCookStats: Display:     PeakSaveQueueSize=350
+LogCookStats: Display: Package.DifferentPackagesSizeMBPerAsset
+LogCookStats: Display: Package.NumberOfDifferencesInPackagesPerAsset
+LogCookStats: Display: Package.PackageDifferencesSizeMBPerAsset
+LogCookStats: Display: Package.DiffTotal
+LogCookStats: Display:     NumberOfDifferentPackages=0
+LogCookStats: Display:     DifferentPackagesSizeMB=0.000000
+LogCookStats: Display:     NumberOfDifferencesInPackages=0
+LogCookStats: Display:     PackageDifferencesSizeMB=0.000000
+LogCookStats: Display: UnversionedProperties
+LogCookStats: Display:     SavedStructs=0
+LogCookStats: Display:     SavedMB=0
+LogCookStats: Display:     EquivalentTaggedMB=0
+LogCookStats: Display:     CompressionRatio=-nan(ind)
+LogCookStats: Display:     BitfieldWasteKB=0
+LogCookStats: Display:
+LogCookStats: Display: Cook Profile
+LogCookStats: Display: ============
+LogCookStats: Display:  0.CookWallTimeSec=39.571712
+LogCookStats: Display:  0. 0.StartupWallTimeSec=4.425470
+LogCookStats: Display:  0. 1.StartCookByTheBookTimeSec=16.184873
+LogCookStats: Display:  0. 1. 0.BlockOnAssetRegistryTimeSec=0.772334
+LogCookStats: Display:  0. 1. 1.GameCookModificationDelegateTimeSec=0.001113
+LogCookStats: Display:  0. 2.TickCookOnTheSideTimeSec=0.861187
+LogCookStats: Display:  0. 2. 0.TickCookOnTheSideLoadPackagesTimeSec=2.165451
+LogCookStats: Display:  0. 2. 1.TickCookOnTheSideSaveCookedPackageTimeSec=6.735869
+LogCookStats: Display:  0. 2. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+LogCookStats: Display:  0. 2. 2.TickCookOnTheSidePrepareSaveTimeSec=6.720915
+LogCookStats: Display:  0. 3.TickLoopGCTimeSec=0.027748
+LogCookStats: Display:  0. 4.TickLoopRecompileShaderRequestsTimeSec=0.000000
+LogCookStats: Display:  0. 5.TickLoopShaderProcessAsyncResultsTimeSec=0.000008
+LogCookStats: Display:  0. 6.TickLoopProcessDeferredCommandsTimeSec=0.000004
+LogCookStats: Display:  0. 7.TickLoopTickCommandletStatsTimeSec=0.000001
+LogCookStats: Display:  0. 8.TickLoopFlushRenderingCommandsTimeSec=0.005102
+LogCookStats: Display:  0. 9.ShaderFlushTimeSec=0.000000
+LogCookStats: Display:  0. 10.ValidationTimeSec=0.000214
+LogCookStats: Display:  1.CookParameters=
+LogCookStats: Display:  1. 0.TargetPlatforms=Windows
+LogCookStats: Display:  1. 1.CookProject=Santa_Trackers
+LogCookStats: Display:  1. 2.CookCultures=en
+LogCookStats: Display:  1. 3.IsCookAll=false
+LogCookStats: Display:  1. 4.IsCookOnTheFly=false
+LogCookStats: Display:  1. 5.IsIterativeCook=false
+LogCookStats: Display:  1. 6.IsUnversioned=true
+LogCookStats: Display:  1. 7.CookLabel=
+LogCookStats: Display:  1. 8.IsFastCook=false
+LogCookStats: Display:
+LogCookStats: Display: DDC Summary Stats
+LogCookStats: Display: =================
+LogCookStats: Display: BackEnd         =InstalledDerivedDataBackendGraph
+LogCookStats: Display: HasLocalCache   =      true
+LogCookStats: Display: HasSharedCache  =     false
+LogCookStats: Display: HasCloudCache   =     false
+LogCookStats: Display: HasZenCache     =      true
+LogCookStats: Display: TotalGetHits    =     10113
+LogCookStats: Display: TotalGetMisses  =        47
+LogCookStats: Display: TotalGets       =     10160
+LogCookStats: Display: TotalGetHitPct  =  0.995374
+LogCookStats: Display: GetMissPct      =  0.004626
+LogCookStats: Display: TotalPutHits    =        47
+LogCookStats: Display: TotalPutMisses  =         0
+LogCookStats: Display: TotalPuts       =        47
+LogCookStats: Display: TotalPutHitPct  =  1.000000
+LogCookStats: Display: PutMissPct      =  0.000000
+LogCookStats: Display: LocalGetHits    =      8560
+LogCookStats: Display: LocalGetMisses  =        47
+LogCookStats: Display: LocalGetTotal   =      8607
+LogCookStats: Display: LocalGetHitPct  =  0.994539
+LogCookStats: Display: SharedGetHits   =         0
+LogCookStats: Display: SharedGetTotal  =         0
+LogCookStats: Display: SharedGetHitPct =  0.000000
+LogCookStats: Display: ZenLocalGetHits =      8560
+LogCookStats: Display: ZenLocalGetTotal=      8607
+LogCookStats: Display: ZenLocalGetHitPct=  0.994539
+LogCookStats: Display: ZenRemoteGetHits=         0
+LogCookStats: Display: ZenRemoteGetTotal=         0
+LogCookStats: Display: ZenRemoteGetHitPct=  0.000000
+LogCookStats: Display: CloudGetHits    =         0
+LogCookStats: Display: CloudGetTotal   =         0
+LogCookStats: Display: CloudGetHitPct  =  0.000000
+LogCookStats: Display: LocalLatency    =  0.626062
+LogCookStats: Display: LocalReadSpeed  =254.441130
+LogCookStats: Display: LocalWriteSpeed = 20.521143
+LogCookStats: Display: SharedLatency   =  0.000000
+LogCookStats: Display: SharedReadSpeed =  0.000000
+LogCookStats: Display: SharedWriteSpeed=  0.000000
+LogCookStats: Display: CloudLatency    =  0.000000
+LogCookStats: Display: CloudReadSpeed  =  0.000000
+LogCookStats: Display: CloudWriteSpeed =  0.000000
+LogCookStats: Display:
+LogCookStats: Display: DDC Resource Stats
+LogCookStats: Display: =======================================================================================================
+LogCookStats: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+LogCookStats: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+LogCookStats: Display: Texture                                        16.09                   0.00             0        712.94
+LogCookStats: Display: GlobalShader                                    0.51                   0.45             0        152.90
+LogCookStats: Display: BulkDataList                                    0.09                   0.00             4          0.70
+LogCookStats: Display: MaterialShader                                  0.02                   0.99             0        133.13
+LogCookStats: Display: StaticMesh                                      0.01                   0.01             0         29.55
+LogCookStats: Display: DistanceField                                   0.01                   0.01             0         54.60
+LogCookStats: Display: CardRepresentation                              0.01                   0.00             0          0.09
+LogCookStats: Display: NavCollision                                    0.01                   0.00             0          2.54
+LogCookStats: Display: GeometryCollection                              0.00                   0.00             1          0.00
+LogCookStats: Display: NiagaraScript                                   0.00                   0.00            30          0.00
+LogCookStats: Display: CKERSM                                          0.00                   0.00             0          0.36
+LogCookStats: Display: Shader                                          0.00                   0.00            12          0.00
+LogCookStats: Display: STREAMEDAUDIO                                   0.00                   0.00             0          0.09
+LogCookStats: Display: BodySetup                                       0.00                   0.00             0          8.47
+LogCookStats: Display: Audio                                           0.00                   0.00             0          0.09
+LogCookStats: Display: BulkDataPayloadId                               0.00                   0.00             0          0.00
+LogCookStats: Display: SkeletalMesh                                    0.00                   0.00             0          1.44
+LogPackageBuildDependencyTracker: Display: Package Accesses (1030 referencing packages with a total of 11519 unique accesses)
+LogConfigBuildDependencyTracker: Display: Config Accesses (1244 referencing packages with a total of 9517 unique accesses). 3234 unique accesses that were not associated with a package.
+LogCook: Display: Done!
+LogSavePackage: Display: Took 0.003277s to verify the EDL loading graph.
+LogInit: Display:
+LogInit: Display: Warning/Error Summary (Unique only)
+LogInit: Display: -----------------------------------
+LogInit: Display: LogCook: Warning: Multiple packages found for path `Overview`; it will not be added. Specify the full LongPackageName. Packages found:
+	/Game/Fab/Christmas_Room/Levels/Overview
+	/Game/Fab/Furniture_Free/Maps/Overview
+LogInit: Display:
+LogInit: Display: Success - 0 error(s), 1 warning(s)
+LogInit: Display:
+
+Execution of commandlet took:  35.15 seconds
+LogShaderCompilers: Display: Shaders left to compile 0
+Took 43.68s to run UnrealEditor-Cmd.exe, ExitCode=0
+Cook command time: 43.69 s
+********** COOK COMMAND COMPLETED **********
+********** STAGE COMMAND STARTED **********
+Creating Staging Manifest...
+Patching bootstrap executable; C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Intermediate\Staging\Santa_Trackers.exe
+Begin update resource 'C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Intermediate\Staging\Santa_Trackers.exe' (0)
+Add resource 101, length 104 (True)
+Add resource 1, length 1996 (True)
+Add resource 2, length 2447 (True)
+Add resource 3, length 2535 (True)
+Add resource 4, length 3037 (True)
+Add resource 5, length 3244 (True)
+Add resource 6, length 3531 (True)
+Add resource 7, length 6931 (True)
+Add resource 201, length 98 (True)
+Add resource 202, length 30 (True)
+End update resource (True/0)
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Base.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseCompat.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseDeviceProfiles.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseEditor.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseEditorKeyBindings.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseEditorPerProjectUserSettings.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseEditorSettings.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseEngine.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseGame.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseGameUserSettings.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseHardware.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseInput.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseInstallBundle.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseLightmass.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseMaterialExpressions.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BasePakFileRules.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseRuntimeOptions.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseScalability.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\BaseSourceControlSettings.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\ConfigRedirects.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\ConsoleVariables.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\PluginBase.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Layouts\DefaultLayout.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Layouts\UE4ClassicLayout.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\Category.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\Editor.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\EditorTutorials.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\Engine.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\Keywords.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\PortableObjectExport.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\PortableObjectImport.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\PropertyNames.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\RepairData.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\ToolTips.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Localization\WordCount.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\VulkanPC\DataDrivenPlatformInfo.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Windows\BaseWindowsEngine.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Windows\BaseWindowsInput.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Windows\DataDrivenPlatformInfo.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Windows\WindowsEditorPerProjectUserSettings.ini
+Excluding config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Windows\WindowsEditorSettings.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Windows\WindowsGame.ini
+Including config file C:\Program Files\Epic Games\UE_5.6\Engine\Config\Windows\WindowsInput.ini
+Excluding config file C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Config\DefaultEditor.ini
+Including config file C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Config\DefaultEngine.ini
+Including config file C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Config\DefaultGame.ini
+Including config file C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Config\DefaultInput.ini
+Reading oplog from Zen...
+Cleaning Stage Directory: C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Saved\StagedBuilds\Windows
+Creating pak using staging manifest.
+DumpManifest: C:\Users\callu\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\PrePak_Windows_NonUFSFiles.txt, NumItems: 33
+DumpManifest: C:\Users\callu\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\PrePak_Windows_NonUFSFilesDebug.txt, NumItems: 6
+DumpManifest: C:\Users\callu\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\PrePak_Windows_UFSFiles.txt, NumItems: 3963
+No matching platform for PakFileRules for Section ExcludeContentForMobile : Windows
+Using 0 pak order files:
+Running UnrealPak with arguments: "C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Santa_Trackers.uproject"  -cryptokeys="C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Saved\Cooked\Windows\Santa_Trackers\Metadata\Crypto.json" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken  -ProjectStore="C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Saved\Cooked\Windows\ue.projectstore" -platform=Windows  -CreateMultiple="C:\Users\callu\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\PakCommands.txt"
+Running: C:\Program Files\Epic Games\UE_5.6\Engine\Binaries\Win64\UnrealPak.exe "C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Santa_Trackers.uproject"  -cryptokeys="C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Saved\Cooked\Windows\Santa_Trackers\Metadata\Crypto.json" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken  -ProjectStore="C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Saved\Cooked\Windows\ue.projectstore" -platform=Windows  -CreateMultiple="C:\Users\callu\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\PakCommands.txt"
+LogPakFile: Display: ProjectDir: ../../../../../../Github/Year-2-MoCap-Personal/Santa_Trackers/
+LogPakFile: Display: Parsing crypto keys from a crypto key cache file
+LogPakFile: Display: CompressionFormats in priority order: Oodle, Zlib
+LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+LogZenStore: Display: Establishing oplog Santa_Trackers.e5610f0b / Windows
+LogIoStore: Display: Fetched 1491 oplog items from Zen in 0.83 seconds
+LogIoStore: Display: Parsed 1491 oplog items 0.01 seconds, 4991 chunks
+LogIoStore: Display: Loaded 2292 chunk hashes from Zen in 0.20 seconds, 2292 hashes updated in 0.00 seconds
+LogPakFile: Display: Oodle enabled on 'NoPluginCompression' files
+LogPakFile: Display: Loading response file C:\Program Files\Epic Games\UE_5.6\Engine\Programs\AutomationTool\Saved\ResponseFiles\PakList_Santa_Trackers-Windows.txt
+LogPakFile: Display: Added 1667 entries to add to pak file.
+LogPakFile: Display: Collecting files to add to pak file...
+LogPakFile: Display: Collected 1667 files in 0.00s.
+LogPakFile: Display: Creating pak C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Saved\StagedBuilds\Windows\Santa_Trackers\Content\Paks\Santa_Trackers-Windows.pak.
+OodleDataCompression: Display: Oodle v2.9.13 format for pak/iostore with method=Kraken, level=4=Normal
+LogPakFile: Display: Created pak file: C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Saved\StagedBuilds\Windows\Santa_Trackers\Content\Paks\Santa_Trackers-Windows.pak
+LogPakFile: Display: CompressionFormat 0 [Oodle] : 380 files, 29403769 -> 9666446 bytes
+LogPakFile: Display: CompressionFormat 2 [None] : 1287 files, 755740 -> 755740 bytes
+LogPakFile: Display: Added 1667 files, 11061984 bytes total
+LogPakFile: Display: PrimaryIndex size: 23342 bytes
+LogPakFile: Display: PathHashIndex size: 51481 bytes
+LogPakFile: Display: FullDirectoryIndex size: 55308 bytes
+LogPakFile: Display: Compression summary: 32.87% of original size. Compressed Size 9666446 bytes, Original Size 29403769 bytes.
+LogPakFile: Display: Encryption - DISABLED
+LogPakFile: Display:
+LogPakFile: Display: Writer and Compression Threads exited.
+LogPakFile: Display: UnrealPak executed in 1.119722 seconds
+Took 1.40s to run UnrealPak.exe, ExitCode=0
+Running UnrealPak with arguments: "C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Santa_Trackers.uproject" -CreateGlobalContainer="C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Saved\StagedBuilds\Windows\Santa_Trackers\Content\Paks\global.utoc" -ProjectStore="C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Saved\Cooked\Windows\ue.projectstore" -CookedDirectory="C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Saved\Cooked\Windows" -Commands="C:\Users\callu\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\IoStoreCommands.txt" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken   -cryptokeys="C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Saved\Cooked\Windows\Santa_Trackers\Metadata\Crypto.json" -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled
+Running: C:\Program Files\Epic Games\UE_5.6\Engine\Binaries\Win64\UnrealPak.exe "C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Santa_Trackers.uproject" -CreateGlobalContainer="C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Saved\StagedBuilds\Windows\Santa_Trackers\Content\Paks\global.utoc" -ProjectStore="C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Saved\Cooked\Windows\ue.projectstore" -CookedDirectory="C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Saved\Cooked\Windows" -Commands="C:\Users\callu\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\IoStoreCommands.txt" -patchpaddingalign=2048 -compressionformats=Oodle -compresslevel=4 -compressmethod=Kraken   -cryptokeys="C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Saved\Cooked\Windows\Santa_Trackers\Metadata\Crypto.json" -compressionMinBytesSaved=1024 -compressionMinPercentSaved=5 -WriteBackMetadataToAssetRegistry=Disabled
+LogPakFile: Display: ProjectDir: ../../../../../../Github/Year-2-MoCap-Personal/Santa_Trackers/
+LogIoStore: Display: ==================== IoStore Utils ====================
+LogIoStore: Display: Parsing crypto keys from a crypto key cache file 'C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Saved\Cooked\Windows\Santa_Trackers\Metadata\Crypto.json'
+LogIoStore: Display: Container signing - DISABLED
+LogIoStore: Display: Directory index - ENABLED
+LogIoStore: Display: Using compression format 'Oodle'
+LogIoStore: Display: Using memory mapping alignment '16384'
+LogIoStore: Display: Using compression block size '65536'
+LogIoStore: Display: Using compression block alignment '2048'
+LogIoStore: Display: Using compression min bytes saved '1024'
+LogIoStore: Display: Using compression min percent saved '5'
+LogIoStore: Display: Using max partition size '0'
+LogIoStore: Display: Not using DDC for compression
+LogIoStore: Display: Using command list file: 'C:\Users\callu\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\IoStoreCommands.txt'
+LogIoStore: Display: Selected Oodle level 4 (Normal) from command line for shaders
+LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+LogZenStore: Display: Establishing oplog Santa_Trackers.e5610f0b / Windows
+LogIoStore: Display: Fetched 1491 oplog items from Zen in 0.51 seconds
+LogIoStore: Display: Parsed 1491 oplog items 0.01 seconds, 4991 chunks
+LogIoStore: Display: Loaded 2292 chunk hashes from Zen in 0.01 seconds, 2292 hashes updated in 0.00 seconds
+LogIoStore: Display: Searching for cooked assets in folder 'C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Saved\Cooked\Windows'
+LogIoStore: Display: Found '8' files
+LogIoStore: Display: Creating container targets...
+OodleDataCompression: Display: Oodle v2.9.13 format for pak/iostore with method=Kraken, level=4=Normal
+LogIoStore: Display: Processing shader libraries, compressing with Oodle Mermaid, level 4 (Normal)
+LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 380 groups (140 of them didn't need new indices), average uncompressed size 150585 bytes, min 249 bytes, max 1048075 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+LogIoStore: Display: Global-PCD3D_SM5(PCD3D_SM5): Recompressed 4107 shaders as 380 groups. Library size changed from 12767 KB (4.38 : 1 ratio) to 5613 KB (9.95 : 1 ratio), 43.97% of previous.
+LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 637 groups (188 of them didn't need new indices), average uncompressed size 297778 bytes, min 1249 bytes, max 1045520 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+LogIoStore: Display: Global-PCD3D_SM6(PCD3D_SM6): Recompressed 10692 shaders as 637 groups. Library size changed from 140597 KB (1.32 : 1 ratio) to 82368 KB (2.25 : 1 ratio), 58.58% of previous.
+LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 314 groups (120 of them didn't need new indices), average uncompressed size 63149 bytes, min 325 bytes, max 966610 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+LogIoStore: Display: Santa_Trackers-PCD3D_SM5(PCD3D_SM5): Recompressed 1969 shaders as 314 groups. Library size changed from 5604 KB (3.46 : 1 ratio) to 2347 KB (8.25 : 1 ratio), 41.88% of previous.
+LogShaderLibrary: Display: Created IoStoreShaderArchive header: shaders grouped in 376 groups (87 of them didn't need new indices), average uncompressed size 151689 bytes, min 1277 bytes, max 1034117 bytes (r.ShaderCodeLibrary.MaxShaderGroupSize=1048576)
+LogIoStore: Display: Santa_Trackers-PCD3D_SM6(PCD3D_SM6): Recompressed 4331 shaders as 376 groups. Library size changed from 42686 KB (1.30 : 1 ratio) to 27104 KB (2.05 : 1 ratio), 63.50% of previous.
+LogIoStore: Display: Shaders processed in 0.58 seconds
+LogIoStore: Display: Initialized WriteRequestManager with MaxConcurrentSourceReads=14 (28 cores), MaxSourceBufferMemory=3072MiB
+LogIoStore: Display: Processing redirects...
+LogIoStore: Display: Creating disk layout...
+LogIoStore: Display: Ordered 1489 packages using fallback bundle order
+LogIoStore: Display: Serializing container(s)...
+LogIoStore: Display: Writing and compressing took 1.31 seconds, writes to disk took 0.59 seconds for 1,033,365,872 bytes @ 1,739,831,058 bytes per second.
+LogIoStore: Display: global: Found perfect hashmap for 1 items.
+LogIoStore: Display: Santa_Trackers-Windows: Found perfect hashmap for 4003 items.
+LogIoStore: Display: Finalize took 0.3 seconds for 2 writers to write 679,528 bytes, 2,433,996 bytes per second
+LogIoStore: Display: Writing tocs... [Physical: 1258 MiB, Virtual: 3845 MiB]
+LogIoStore: Display: 2,292 / 4,004 hashes were loaded from the hash database, by type:
+LogIoStore: Display:     ExportBundleData           1,489
+LogIoStore: Display:     BulkData                   803
+LogIoStore: Display: 2,292 / 4,004 chunks attempted to compress, by type:
+LogIoStore: Display:     ExportBundleData           1,489 / 1,489
+LogIoStore: Display:     BulkData                   803 / 803
+LogIoStore: Display:     ScriptObjects              0 / 1
+LogIoStore: Display:     ContainerHeader            0 / 1
+LogIoStore: Display:     ShaderCodeLibrary          0 / 4
+LogIoStore: Display:     ShaderCode                 0 / 1,706
+LogIoStore: Display: Source bytes read:
+LogIoStore: Display:     Zen:                      1,728,393,451
+LogIoStore: Display:         ExportBundleData        394,001,129 bytes over 1,489 reads
+LogIoStore: Display:         BulkData               1,334,392,322 bytes over 803 reads
+LogIoStore: Display:     Loose File:                           0
+LogIoStore: Display:     Memory:                     242,218,114
+LogIoStore: Display:         ShaderCodeLibrary         1,714,400 bytes over 8 reads
+LogIoStore: Display:         ShaderCode              240,503,714 bytes over 3,412 reads
+LogIoStore: Display: Calculating stats...
+LogIoStore: Display:
+LogIoStore: Display: Container Summary
+LogIoStore: Display: ==================
+LogIoStore: Display:
+LogIoStore: Display: Container                                               Flags      Chunk(s) #       TOC (KiB)       Raw Size (MiB)           Size (MiB)
+LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: global                                              -/-/-/-/-               1            0.67                 2.51                 2.51 -
+LogIoStore: Display: Santa_Trackers-Windows                              C/-/-/I/-            4003          662.93              1766.98               982.98 (44.37% Oodle)
+LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: Total                                                                    4004          663.60              1769.50               985.49
+LogIoStore: Display:
+LogIoStore: Display: ** Flags: (C)ompressed / (E)ncrypted / (S)igned) / (I)ndexed) / (O)nDemand **
+LogIoStore: Display:
+LogIoStore: Display: Compression block padding:     3.10 MiB
+LogIoStore: Display:
+LogIoStore: Display: Container Directory Index
+LogIoStore: Display: ==========================
+LogIoStore: Display:
+LogIoStore: Display: Container                                          Size (KiB)
+LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: global                                                   0.00
+LogIoStore: Display: Santa_Trackers-Windows                                 109.40
+LogIoStore: Display:
+LogIoStore: Display: Container Patch Report
+LogIoStore: Display: ========================
+LogIoStore: Display:
+LogIoStore: Display: Container                                             Total #       Modified #          Added #   Modified (MiB)      Added (MiB)
+LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: global                                                      1                0                0             0.00             0.00
+LogIoStore: Display: Santa_Trackers-Windows                                   4003                0             4003             0.00           979.88
+LogIoStore: Display:
+LogIoStore: Display: PackageStore
+LogIoStore: Display: =============
+LogIoStore: Display:
+LogIoStore: Display: Container                                          Size (KiB)      Packages #     Localized #
+LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: Santa_Trackers-Windows                                     54            1489               0
+LogIoStore: Display: ----------------------------------------------------------------------------------------------------------------------------------------------
+LogIoStore: Display: Total                                                      54            1489               0
+LogIoStore: Display:
+LogIoStore: Display:
+LogIoStore: Display: Input:      1489 Packages
+LogIoStore: Display: Input:      0.00 GB UExp
+LogIoStore: Display: Input:      0.37 GB UAsset
+LogIoStore: Display: Input:      1.24 GB UBulk
+LogIoStore: Display: Input:     85.92 MB for 1017 Global shaders
+LogIoStore: Display: Input:      6.73 MB for 317 Shared shaders
+LogIoStore: Display: Input:      0.00 MB for 0 Unique shaders
+LogIoStore: Display: Input:     22.03 MB for 372 Inline shaders
+LogIoStore: Display:
+LogIoStore: Display: Output:     2000 Imported package entries
+LogIoStore: Display: Output:      778 Packages without imports
+LogIoStore: Display: Output:        0 Public runtime script objects
+LogIoStore: Display: Output:     2.51 MB InitialLoadData
+LogIoStore: Display:
+LogPakFile: Display: UnrealPak executed in 2.775894 seconds
+Took 2.92s to run UnrealPak.exe, ExitCode=0
+DumpManifest: C:\Users\callu\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\FinalCopyWin64_UFSFiles.txt, NumItems: 3964
+DumpManifest: C:\Users\callu\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\FinalCopyWin64_NonUFSFiles.txt, NumItems: 33
+DumpManifest: C:\Users\callu\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_5.6\FinalCopyWin64_NonUFSFilesDebug.txt, NumItems: 6
+Copying NonUFSFiles to staging directory: C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Saved\StagedBuilds\Windows
+Copying DebugFiles to staging directory: C:\Github\Year-2-MoCap-Personal\Santa_Trackers\Saved\StagedBuilds\Windows
+Stage command time: 5.46 s
+********** STAGE COMMAND COMPLETED **********
+********** PACKAGE COMMAND STARTED **********
+Package command time: 0.00 s
+********** PACKAGE COMMAND COMPLETED **********
+********** ARCHIVE COMMAND STARTED **********
+Archiving to C:/Github/Year-2-MoCap-Personal/Santa_Trackers/Export
+Archive command time: 0.60 s
+********** ARCHIVE COMMAND COMPLETED **********
+BuildCookRun time: 54.26 s
+BUILD SUCCESSFUL
+AutomationTool executed for 0h 0m 54s
+AutomationTool exiting with ExitCode=0 (Success)
